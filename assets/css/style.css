@@ -1,9 +1,24 @@
-.header {
-align-content: center;
+.container {
+    background: red;
 }
-.wrapper {
-    background: white;
+#bootstrap-overwrite wrapper {
+    background: rgb(190, 136, 136);
     height: 960px;
     width:960px;
     
 }
+
+a.navbar-brand {
+    background:#4aaaa5 !important;
+
+}
+  h2.aboutme {
+    color:#4aaaa5;
+
+   }
+   #texpanel {
+       float: left;
+   }
+   .container.bg-white {
+       float: left;
+   }
